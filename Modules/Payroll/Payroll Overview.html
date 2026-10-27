@@ -1,240 +1,175 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-<link rel="stylesheet" href="/style.css">
+<head>
+    <link rel="stylesheet" href="../../style.css">
     <title>HRMS Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    </head>
-    <body>
-        
-        <!-- Side Nav bar -->
-         <div class="side-nav">
-             <img src="/images/logo.jpeg">
-            <a href="/Modules/Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
-            
-             <a href="/Modules/Profile/Personal.html"><i class="fa-regular fa-user" style="color:  rgb(255, 255, 255);"></i>My Profile  </a>
-             <a href="/Modules/Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance </a>
-             <a href="/Modules/Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
-            
-             <a href="/Modules/Payroll/Payroll Overview.html" class="active"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll </a>
-             <a href="/Modules/Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
-             <a href="/Modules/Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement </a>
-             <a href="/Modules/Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports </a>
-             <a href="/Modules/Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment </a>
-             <a href="/Modules/Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance </a>
-               <a href="/Modules/Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management </a>
-            
-    
-        </div>
-        <!-- Top Nav Bar -->
-         
-            <div class="top-nav">
-              <div class="nav-left">
-                <div class="nav-tabs">
-             <a href="/Modules/Payroll/Payroll Overview.html" class="active"><i class="fa-solid fa-money-bill" style="color: rgb(4, 10, 148);"></i>Payroll Overview</a>
-             <a href="/Modules/Payroll/Employee Payroll.html"><i class="fa-regular fa-user" style="color:navy ;"></i>Employee Payroll</a>
-            
-            
-             
-             
-             <a href="/Modules/Payroll/Payslip Management.html"><i class="fa-solid fa-file-invoice" style="color: rgb(44, 40, 147);"></i>Payslip Management</a>
-             </div>
-             </div>
-            
-                <div class="nav-right">
-                  <div class="profile">
-             <img src="/images/admin.jpg">
-             <span>Tajunnisa </span>
-             <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
-             
-        
-             </div>
-             </div>
-             
-             
-              
-        
-         </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="side-nav">
+        <img src="../../images/logo.jpeg">
+        <a href="../Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
+        <a href="../Profile/Personal.html"><i class="fa-regular fa-user" style="color: rgb(255, 255, 255);"></i>My Profile</a>
+        <a href="../Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance</a>
+        <a href="../Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
+        <a href="Payroll Overview.html" class="active"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll</a>
+        <a href="../Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
+        <a href="../Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement</a>
+        <a href="../Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports</a>
+        <a href="../Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment</a>
+        <a href="../Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance</a>
+        <a href="../Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management</a>
+    </div>
 
-         <hero>
-            <div class="welcome">
-                <h2>Payroll Overview</h2>
-                <p>Track and manage your payroll operations</p>
+    <div class="top-nav">
+        <div class="nav-left">
+            <div class="nav-tabs">
+                <a href="Payroll Overview.html" class="active"><i class="fa-solid fa-money-bill" style="color: rgb(4, 10, 148);"></i>Payroll Overview</a>
+                <a href="Employee Payroll.html"><i class="fa-regular fa-user" style="color:navy;"></i>Employee Payroll</a>
+                <a href="Payslip Management.html"><i class="fa-solid fa-file-invoice" style="color: rgb(44, 40, 147);"></i>Payslip Management</a>
             </div>
-            <!--  
-             <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at1"><i class="fa-solid fa-wallet" style="color: rgb(8, 19, 254);"></i></a>
-                </div>
-                <div>
-                    <h3>Total Payroll Cost</h3>
-                     <p>80,00,000</p>
-                     <p class="month">May 2026</p>
-                     <h6 class="blue">🡡8.6%</h6>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at2"><i class="fa-solid fa-users" style="color: rgb(10, 148, 53);"></i></a>
-                </div>
-                <div>
-                     <h3>Employees Paid</h3>
-                     <p>20</p>
-                     <p class="month">May 2026</p>
-                    <h6 class="green1">🡡5.3%</h6>
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at3"><i class="fa-solid fa-calendar-check" style="color: rgb(232, 46, 34);"></i></a>
-                </div>
-                <div>
-                    <h3>Last Payroll Date</h3>
-                    <p>31 May 2026</p>
-                    <h6 class="red1">Monthly Payroll</h6>
-                </div>
-               </div>
-               
-                
-               </div>
-                <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at4"><i class="fa-solid fa-hourglass" style="color: rgb(222, 125, 5);"></i></a>
-                </div>
-                <div>
-                    <h3>Payroll in Progress</h3>
-                     <p>0</p>
-                     <h6 class="orange">No Process Running</h6>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at5"><i class="fa-brands fa-wpforms" style="color: rgb(151, 3, 156);"></i></a>
-                </div>
-                <div>
-                     <h3>TDS Deducted</h3>
-                     <p>6,40,000</p>
-                      <p class="month">May 2026</p>
-                    <h6 class="purple">🡡12.4%</h6>
-                   
-                </div> 
+        </div>
+        <div class="nav-right">
+            <div class="profile">
+                <img src="../../images/admin.jpg">
+                <span>Tajunnisa</span>
+                <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
             </div>
-               
-                
-                </div> -->
-              <div class="whole-pay">
-               <div class="pay">
-                <img src="/images/pay1.jpeg">
-               </div>
-               <div class="payroll">
-               <div class="leave-req">
-                <div>
-                <h3>Recent Payroll Runs</h3>
-                </div>
-                <div>
-                    <p>view All</p>
-                </div>
+        </div>
+    </div>
+
+    <div class="welcome">
+        <h2>Payroll Overview</h2>
+        <p>Track and manage your payroll operations</p>
+    </div>
+
+    <!--
+    <div class="works4">
+        <div class="work4">
+            <div><a href="#" class="at1"><i class="fa-solid fa-wallet" style="color: rgb(8, 19, 254);"></i></a></div>
+            <div>
+                <h3>Total Payroll Cost</h3>
+                <p>80,00,000</p>
+                <p class="month">May 2026</p>
+                <h6 class="blue">🡡8.6%</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div><a href="#" class="at2"><i class="fa-solid fa-users" style="color: rgb(10, 148, 53);"></i></a></div>
+            <div>
+                <h3>Employees Paid</h3>
+                <p>20</p>
+                <p class="month">May 2026</p>
+                <h6 class="green1">🡡5.3%</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div><a href="#" class="at3"><i class="fa-solid fa-calendar-check" style="color: rgb(232, 46, 34);"></i></a></div>
+            <div>
+                <h3>Last Payroll Date</h3>
+                <p>31 May 2026</p>
+                <h6 class="red1">Monthly Payroll</h6>
+            </div>
+        </div>
+    </div>
+    <div class="works4">
+        <div class="work4">
+            <div><a href="#" class="at4"><i class="fa-solid fa-hourglass" style="color: rgb(222, 125, 5);"></i></a></div>
+            <div>
+                <h3>Payroll in Progress</h3>
+                <p>0</p>
+                <h6 class="orange">No Process Running</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div><a href="#" class="at5"><i class="fa-brands fa-wpforms" style="color: rgb(151, 3, 156);"></i></a></div>
+            <div>
+                <h3>TDS Deducted</h3>
+                <p>6,40,000</p>
+                <p class="month">May 2026</p>
+                <h6 class="purple">🡡12.4%</h6>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <div class="whole-pay">
+        <div class="pay">
+            <img src="../../images/pay1.jpeg">
+        </div>
+
+        <div class="payroll">
+            <div class="leave-req">
+                <div><h3>Recent Payroll Runs</h3></div>
+                <div><p>view All</p></div>
             </div>
 
             <div class="run">
                 <div class="run-icon">
-                    <list>
-                        <ul>
-                            <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(27, 3, 156);"></i></a></li><br>
-                              <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(49, 3, 156);"></i></a></li><br>
-                               <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(27, 3, 156);"></i></a></li><br>
-                                 <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(27, 3, 156);"></i></a></li><br>
-
-                                <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(27, 3, 156);"></i></a></li><br>
-
-                        </ul>
-                    </list>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(27, 3, 156);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(49, 3, 156);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(27, 3, 156);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(27, 3, 156);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-calendar-check" style="color: rgb(27, 3, 156);"></i></a></li><br>
+                    </ul>
                 </div>
+
                 <div class="run2">
-                    <list>
-                        <ul>
-                          <list>
-                            <ul>
-                                <li>May 2026 Payroll<br><span>Processed on 31 May 2026-20 Emp</span></li><br>
-                                 <li>April 2026 Payroll<br><span>Processed on 31 Apr 2026-20 Emp</span></li><br>
-                                 <li>March 2026 Payroll<br><span>Processed on 31 Mar 2026-20 Emp</span></li><br>
-                                 <li>May 2026 Payroll<br><span>Processed on 31 Feb 2026-20 Emp</span></li><br>
-                                 <li>Feb 2026 Payroll<br><span>Processed on 31 Jan 2026-20 Emp</span></li><br>
-                                 
-
-                            </ul>
-                          </list>
-                        </ul>
-                    </list>
+                    <ul>
+                        <li>May 2026 Payroll<br><span>Processed on 31 May 2026-20 Emp</span></li><br>
+                        <li>April 2026 Payroll<br><span>Processed on 31 Apr 2026-20 Emp</span></li><br>
+                        <li>March 2026 Payroll<br><span>Processed on 31 Mar 2026-20 Emp</span></li><br>
+                        <li>May 2026 Payroll<br><span>Processed on 31 Feb 2026-20 Emp</span></li><br>
+                        <li>Feb 2026 Payroll<br><span>Processed on 31 Jan 2026-20 Emp</span></li><br>
+                    </ul>
                 </div>
 
-                 <div class="run3">
-                    <list>
-                        <ul>
-                          <list>
-                            <ul>
-                              <li>Completed</li><br>
-                               <li>Completed</li><br>
-                                <li>Completed</li><br>
-                                 <li>Completed</li><br>
-                                  <li>Completed</li><br>
+                <div class="run3">
+                    <ul>
+                        <li>Completed</li><br>
+                        <li>Completed</li><br>
+                        <li>Completed</li><br>
+                        <li>Completed</li><br>
+                        <li>Completed</li><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                            </ul>
-                          </list>
-                        </ul>
-                    </list>
-                </div>
-            </div>
-            </div>
-            </div>
-            <div class="alert">
-             <div class="leave-req">
-                <div>
-                <h3>Payroll Alerts</h3>
-                </div>
-                <div>
-                    <p>view All</p>
-                </div>
-            </div>
-            <div class="whole-alert">
+    <div class="alert">
+        <div class="leave-req">
+            <div><h3>Payroll Alerts</h3></div>
+            <div><p>view All</p></div>
+        </div>
+
+        <div class="whole-alert">
             <div class="alert1">
-                 
-                   <a href="#"><i class="fa-solid fa-triangle-exclamation" style="color: rgb(232, 46, 34);"></i>0</a>
-            <h3>Payment Failures</h3>
-            <p>No Failures</p>
-                 
+                <a href="#"><i class="fa-solid fa-triangle-exclamation" style="color: rgb(232, 46, 34);"></i>0</a>
+                <h3>Payment Failures</h3>
+                <p>No Failures</p>
             </div>
-             <div class="alert2">
-                 
-                   <a href="#"><i class="fa-solid fa-circle-exclamation" style="color: rgb(225, 204, 9);"></i>0</a>
-            <h3>Pending Approvals</h3>
-            <p>All approved</p>
-                 
+
+            <div class="alert2">
+                <a href="#"><i class="fa-solid fa-circle-exclamation" style="color: rgb(225, 204, 9);"></i>0</a>
+                <h3>Pending Approvals</h3>
+                <p>All approved</p>
             </div>
-             <div class="alert3">
-                 
-                   <a href="#"><i class="fa-solid fa-anchor-circle-exclamation" style="color: rgb(34, 52, 232);"></i>0</a>
-            <h3>Tax Declarations</h3>
-            <p>All Submitted</p>
-                 
+
+            <div class="alert3">
+                <a href="#"><i class="fa-solid fa-anchor-circle-exclamation" style="color: rgb(34, 52, 232);"></i>0</a>
+                <h3>Tax Declarations</h3>
+                <p>All Submitted</p>
             </div>
+
             <div class="alert4">
-                 
-                   <a href="#"><i class="fa-solid fa-circle-check" style="color: rgb(11, 152, 70);"></i>0</a>
-            <h3>Payment Errors</h3>
-            <p>No Errors found</p>
-                 
+                <a href="#"><i class="fa-solid fa-circle-check" style="color: rgb(11, 152, 70);"></i>0</a>
+                <h3>Payment Errors</h3>
+                <p>No Errors found</p>
             </div>
-            </div>
-            </div>
-
-
-            
+        </div>
+    </div>
+</body>
+</html>
