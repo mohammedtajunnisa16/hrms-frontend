@@ -1,290 +1,244 @@
+```html
 <!DOCTYPE html>
 <html>
-    <head>
-<link rel="stylesheet" href="/style.css">
+<head>
+    <link rel="stylesheet" href="../../style.css">
     <title>HRMS Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    </head>
-    <body>
-        
-        <!-- Side Nav bar -->
-         <div class="side-nav">
-             <img src="/images/logo.jpeg">
-            <a href="/Modules/Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
-            
-             <a href="/Modules/Profile/Personal.html"><i class="fa-regular fa-user" style="color:  rgb(255, 255, 255);"></i> My  Profile </a>
-             <a href="/Modules/Attendance/Daily Attendance.html"  class="active"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance </a>
-             <a href="/Modules/Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
-            
-             <a href="/Modules/Payroll/Payroll Overview.html"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll </a>
-             <a href="/Modules/Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
-             <a href="/Modules/Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement </a>
-             <a href="/Modules/Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports </a>
-             <a href="/Modules/Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment </a>
-             <a href="/Modules/Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance </a>
-             <a href="/Modules/Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management </a>
-            
-    
-        </div>
-        <!-- Top Nav Bar -->
-         <div class="top-nav">
-             <div class="nav-left">
-                <div class="nav-tabs">
-           
-             <a href="/Modules/Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar" style="color:navy;"></i>Daily Attendance</a>
-             <a href="/Modules/Attendance/Monthly Attendance.html" ><i class="fa-solid fa-calendar-check" style="color:navy;"></i>Monthly Attendance</a>
-            
-             <a href="/Modules/Attendance/in-out .html"  class="active"><i class="fa-solid fa-gauge-simple-high" style="color:navy;"></i>Check in/Check Out</a>
-             
-             </div>
-             </div>
-            
-                <div class="nav-right">
-                  <div class="profile">
-             <img src="/images/admin.jpg">
-             <span>Tajunnisa</span>
-             <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
-             
-        
-             </div>
-             </div>
-             </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="side-nav">
+        <img src="../../images/logo.jpeg">
+        <a href="../Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
+        <a href="../Profile/Personal.html"><i class="fa-regular fa-user" style="color: rgb(255, 255, 255);"></i> My Profile</a>
+        <a href="Daily Attendance.html" class="active"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance</a>
+        <a href="../Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
+        <a href="../Payroll/Payroll Overview.html"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll</a>
+        <a href="../Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
+        <a href="../Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement</a>
+        <a href="../Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports</a>
+        <a href="../Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment</a>
+        <a href="../Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance</a>
+        <a href="../Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management</a>
+    </div>
 
-               <!-- <div class="con"> 
-               <h2>Check-in / Check-Out</h2>
-               <p>Track and manage attendance of all employees</p>
-               
-               </div>
-               <div class="works4">
-               <div class="work4">
+    <div class="top-nav">
+        <div class="nav-left">
+            <div class="nav-tabs">
+                <a href="Daily Attendance.html"><i class="fa-solid fa-calendar" style="color:navy;"></i>Daily Attendance</a>
+                <a href="Monthly Attendance.html"><i class="fa-solid fa-calendar-check" style="color:navy;"></i>Monthly Attendance</a>
+                <a href="in-out .html" class="active"><i class="fa-solid fa-gauge-simple-high" style="color:navy;"></i>Check in/Check Out</a>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="profile">
+                <img src="../../images/admin.jpg">
+                <span>Tajunnisa</span>
+                <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="con">
+        <h2>Check-in / Check-Out</h2>
+        <p>Track and manage attendance of all employees</p>
+    </div>
+    <div class="works4">
+        <div class="work4">
+            <div>
+                <a href="#" class="at1"><i class="fa-solid fa-users" style="color: rgb(18, 217, 236);"></i></a>
+            </div>
+            <div>
+                <h3>Total Employees</h3>
+                <p>20</p>
+                <h6 class="blue">100.00%</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at2"><i class="fa-solid fa-circle-check" style="color: rgb(8, 164, 21);"></i></a>
+            </div>
+            <div>
+                <h3>Present Today</h3>
+                <p>17</p>
+                <h6 class="green1">85.00%</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at3"><i class="fa-solid fa-circle-xmark" style="color: rgb(216, 34, 14);"></i></a>
+            </div>
+            <div>
+                <h3>Absent Today</h3>
+                <p>2</p>
+                <h6 class="red1">10.00%</h6>
+            </div>
+        </div>
+    </div>
+    <div class="works4">
+        <div class="work4">
+            <div>
+                <a href="#" class="at4"><i class="fa-solid fa-clock" style="color: rgb(210, 112, 8);"></i></a>
+            </div>
+            <div>
+                <h3>Late Commers</h3>
+                <p>3</p>
+                <h6 class="orange">15.00%</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at5"><i class="fa-regular fa-calendar" style="color: rgb(237, 19, 215);"></i></a>
+            </div>
+            <div>
+                <h3>On Leave</h3>
+                <p>1</p>
+                <h6 class="purple">5.00%</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at4"><i class="fa-solid fa-hourglass-half" style="color: rgb(237, 150, 19);"></i></a>
+            </div>
+            <div>
+                <h3>Todays's Attenance</h3>
+                <p>85%</p>
+                <h6 class="orange">🡡 4% vs Yesterday</h6>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <div class="atten">
+        <div class="in-out">
+            <div class="check-in">
+                <div><a href="#"><i class="fa-solid fa-user-clock" style="color: rgb(16, 153, 25);"></i></a></div>
                 <div>
-                    <a href="#" class="at1"><i class="fa-solid fa-users" style="color: rgb(18, 217, 236);"></i></a>
-                </div>
-                <div>
-                    <h3>Total Employees</h3>
-                     <p>20</p>
-                     <h6 class="blue">100.00%</h6>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at2"><i class="fa-solid fa-circle-check" style="color: rgb(8, 164, 21);"></i></a>
-                </div>
-                <div>
-                     <h3>Present Today</h3>
-                     <p>17</p>
-                    <h6 class="green1">85.00%</h6>
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at3"><i class="fa-solid fa-circle-xmark" style="color: rgb(216, 34, 14);"></i></a>
-                </div>
-                <div>
-                    <h3>Absent Today</h3>
-                    <p>2</p>
-                    <h6 class="red1">10.00%</h6>
-                </div>
-               </div>
-               
-                
-               </div>
-              <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at4"><i class="fa-solid fa-clock" style="color: rgb(210, 112, 8);"></i></a>
-                </div>
-                <div>
-                    <h3>Late Commers</h3>
-                     <p>3</p>
-                     <h6 class="orange">15.00%</h6>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at5"><i class="fa-regular fa-calendar" style="color: rgb(237, 19, 215);"></i></a>
-                </div>
-                <div>
-                     <h3>On Leave</h3>
-                     <p>1</p>
-                    <h6 class="purple">5.00%</h6>
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at4"><i class="fa-solid fa-hourglass-half" style="color: rgb(237, 150, 19);"></i></a>
-                </div>
-                <div>
-                    <h3>Todays's Attenance</h3>
-                    <p>85%</p>
-                    <h6 class="orange">🡡 4% vs Yesterday</h6>
-                </div>
-               </div>
-               
-                
-               </div> -->
-               <div class="atten">
-               <div class="in-out">
-               <div class="check-in">
-                 <div> <a href="#"><i class="fa-solid fa-user-clock" style="color: rgb(16, 153, 25);"></i></a></div>
-                 <div>
                     <h3>CHECK IN</h3>
                     <p>Already Checked in at</p>
                     <h4>09:05 AM</h4>
-                 </div>
-                 <div>
-                    <a href="#"><i class="fa-regular fa-circle-check" style="color: rgb(25, 206, 37);"></i></a>
-                 </div>
-               </div>
-                <div class="check-out">
-                     <div> <a href="#"><i class="fa-solid fa-business-time" style="color: rgb(42, 15, 243);"></i></a></div>
-                
-               <div>
+                </div>
+                <div><a href="#"><i class="fa-regular fa-circle-check" style="color: rgb(25, 206, 37);"></i></a></div>
+            </div>
+            <div class="check-out">
+                <div><a href="#"><i class="fa-solid fa-business-time" style="color: rgb(42, 15, 243);"></i></a></div>
+                <div>
                     <h3>CHECK OUT</h3>
                     <p>Not Checked Out Yet</p>
-                    
-                 </div>
-                 <div>
-                    <button>Check Out</button>
-                 </div>
-               </div>
-               <div class="take-break">
-                  <div> <a href="#"><i class="fa-solid fa-mug-hot" style="color: rgb(249, 132, 14);"></i></a></div>
-                
-               <div>
+                </div>
+                <div><button>Check Out</button></div>
+            </div>
+            <div class="take-break">
+                <div><a href="#"><i class="fa-solid fa-mug-hot" style="color: rgb(249, 132, 14);"></i></a></div>
+                <div>
                     <h3>TAKE BREAK</h3>
                     <p>You Can Take Break</p>
-                    
-                 </div>
-                 <div>
-                    <button>Take Break</button>
-                 </div>
-               </div>
-               </div>
-                <div class="whole-dept2">
-               <div class="dep">
-                 <h2>Attendance by Dept</h2>
-               </div>
-               <div class="depts">
-               <div class="dept">
-                <ul>
-                    <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(15, 218, 46);"></i></a></li><br>
-                     <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(236, 49, 12);"></i></a></li><br>
-                      <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(206, 245, 14);"></i></a></li><br>
-                       <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(242, 144, 7);"></i></a></li><br>
+                </div>
+                <div><button>Take Break</button></div>
+            </div>
+        </div>
+
+        <div class="whole-dept2">
+            <div class="dep">
+                <h2>Attendance by Dept</h2>
+            </div>
+            <div class="depts">
+                <div class="dept">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(15, 218, 46);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(236, 49, 12);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(206, 245, 14);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(242, 144, 7);"></i></a></li><br>
                         <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(175, 32, 153);"></i></a></li><br>
-                   
-                </ul>
-               </div>
+                    </ul>
+                </div>
                 <div class="dept1">
-                <ul>
-                  <li>HR</li><br>
-                   <li>IT</li><br>
-                    <li>Finance</li><br>
-                     <li>Marketing</li><br>
-                      <li>Sales</li><br>
+                    <ul>
+                        <li>HR</li><br>
+                        <li>IT</li><br>
+                        <li>Finance</li><br>
+                        <li>Marketing</li><br>
+                        <li>Sales</li><br>
+                    </ul>
+                </div>
+                <div class="dept">
+                    <ul>
+                        <li>90%</li><br>
+                        <li>88%</li><br>
+                        <li>83%</li><br>
+                        <li>80%</li><br>
+                        <li>82%</li><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-                </ul>
-               </div>
-                 <div class="dept">
-                <ul>
-                  <li>90%</li><br>
-                   <li>88%</li><br>
-                    <li>83%</li><br>
-                     <li>80%</li><br>
-                      <li>82%</li><br>
-
-                </ul>
-                
-               </div>
-               
-               </div>
-               </div>
-               
-
-                  <div class="whole-leaves">
-                 <div class="leave">
-                    <h3>Today's Status</h3>
-                    <div class="leaves">
-                     <div class="at-icon">
-                        <list >
-                            <ul>
-                               <li><a href="#" class="at7"><i class="fa-solid fa-user-clock" style="color: rgb(15, 218, 46);"></i></a></li><br>
-                     <li><a href="#" class="at8"><i class="fa-solid fa-calendar-check" style="color: rgb(236, 49, 12);"></i></a></li><br>
-                       <li><a href="#" class="at9"><i class="fa-solid fa-mug-hot" style="color: rgb(242, 144, 7);"></i></a></li><br>
-                        <li><a href="#" class="at6"><i class="fa-solid fa-business-time" style="color: rgb(77, 32, 175);"></i></a></li><br>
-                   
-                           
-                                </ul>
-                        </list>
-                    </div>    
+        <div class="whole-leaves">
+            <div class="leave">
+                <h3>Today's Status</h3>
+                <div class="leaves">
+                    <div class="at-icon">
+                        <ul>
+                            <li><a href="#" class="at7"><i class="fa-solid fa-user-clock" style="color: rgb(15, 218, 46);"></i></a></li><br>
+                            <li><a href="#" class="at8"><i class="fa-solid fa-calendar-check" style="color: rgb(236, 49, 12);"></i></a></li><br>
+                            <li><a href="#" class="at9"><i class="fa-solid fa-mug-hot" style="color: rgb(242, 144, 7);"></i></a></li><br>
+                            <li><a href="#" class="at6"><i class="fa-solid fa-business-time" style="color: rgb(77, 32, 175);"></i></a></li><br>
+                        </ul>
+                    </div>
                     <div class="leave1">
-                      <ul>
-                        <li>Checked-in</li><br>
-                        <li>Not Checked-in</li><br>
-                         <li> On break</li><br>
-                         <li> Checked-Out</li><br>
-                       
-                    
-                      </ul>
+                        <ul>
+                            <li>Checked-in</li><br>
+                            <li>Not Checked-in</li><br>
+                            <li>On break</li><br>
+                            <li>Checked-Out</li><br>
+                        </ul>
                     </div>
-                   <div class="days">
-                      <ul>
-                        <li>17</li><br>
-                       <li>2</li><br>
-                        <li>3</li><br>
-                         <li>0</li><br>
-                         
-                      </ul>
+                    <div class="days">
+                        <ul>
+                            <li>17</li><br>
+                            <li>2</li><br>
+                            <li>3</li><br>
+                            <li>0</li><br>
+                        </ul>
                     </div>
-                 </div>
-                 </div>
-                 </div>
-                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                   <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at1"><i class="fa-solid fa-clock" style="color: rgb(18, 217, 236);"></i></a>
-                </div>
-                <div>
-                    <h3>Total Working Hours</h3>
-                     <p>176h 30m</p>
-                     <h6 class="green1">This Month 🡡6% </h6>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at2"><i class="fa-solid fa-user-clock" style="color: rgb(8, 164, 21);"></i></a>
-                </div>
-                <div>
-                     <h3>Overtime Hours</h3>
-                     <p>08h 20m</p>
-                    <h6 class="green1">This Month 🡡10%</h6>
-                   
-                </div>
-               </div>
-                 <div class="work4">
-                <div>
-                    <a href="#" class="at4"><i class="fa-solid fa-mug-hot" style="color: rgb(210, 112, 8);"></i></a>
-                </div>
-                <div>
-                    <h3>Total Break Hours</h3>
-                     <p>12h 45m</p>
-                     <h6 class="red1">This Month ↓2%</h6>
-                    
-                   
-                </div>
-               </div>
-             
-        
-            
+    <div class="works4">
+        <div class="work4">
+            <div>
+                <a href="#" class="at1"><i class="fa-solid fa-clock" style="color: rgb(18, 217, 236);"></i></a>
+            </div>
+            <div>
+                <h3>Total Working Hours</h3>
+                <p>176h 30m</p>
+                <h6 class="green1">This Month 🡡6%</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at2"><i class="fa-solid fa-user-clock" style="color: rgb(8, 164, 21);"></i></a>
+            </div>
+            <div>
+                <h3>Overtime Hours</h3>
+                <p>08h 20m</p>
+                <h6 class="green1">This Month 🡡10%</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at4"><i class="fa-solid fa-mug-hot" style="color: rgb(210, 112, 8);"></i></a>
+            </div>
+            <div>
+                <h3>Total Break Hours</h3>
+                <p>12h 45m</p>
+                <h6 class="red1">This Month ↓2%</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```
