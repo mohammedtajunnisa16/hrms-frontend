@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="/style.css">
+    <title>HRMS Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    </head>
+    <body>
+        
+        <!-- Side Nav bar -->
+         <div class="side-nav">
+             <img src="/images/logo.jpeg">
+            <a href="/Modules/Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
+            
+             <a href="/Modules/Profile/Personal.html"><i class="fa-regular fa-user" style="color:  rgb(255, 255, 255);"></i> My  Profile </a>
+             <a href="/Modules/Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance </a>
+             <a href="/Modules/Leave Management/Apply Leave.html" class="active"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
+            
+             <a href="/Modules/Payroll/Payroll Overview.html"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll </a>
+             <a href="/Modules/Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
+             <a href="/Modules/Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement </a>
+             <a href="/Modules/Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports </a>
+             <a href="/Modules/Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment </a>
+             <a href="/Modules/Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance </a>
+              <a href="/Modules/Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management </a>
+            
+    
+        </div>
+        <!-- Top Nav Bar -->
+         <div class="top-nav">
+             <div class="nav-left">
+                <div class="nav-tabs">
+           
+             <a href="/Modules/Leave Management/Apply Leave.html"  class="active"><i class="fa-solid fa-person-walking-arrow-right" style="color:navy;"></i>Apply Leave</a>
+             <a href="/Modules/Leave Management/Leave Balance.html" ><i class="fa-solid fa-calendar-week" style="color: rgb(20, 16, 140);"></i>Leave Balance</a>
+            
+             <a href="/Modules/Leave Management/leave approval.html"><i class="fa-solid fa-calendar-day" style="color: rgb(3, 6, 109);"></i>Leave Approval</a>
+             
+             </div>
+             </div>
+            
+                <div class="nav-right">
+                  <div class="profile">
+             <img src="/images/admin.jpg">
+             <span>Tajunnisa</span>
+             <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
+             
+        
+             </div>
+             </div>
+             </div>
+               <div class="welcome">
+                <h2>Apply Leave</h2>
+                <p>Apply ,track and manage your leave from one place</p>
+            </div>
+            <div class="whole-apply">
+            <div class="apply-form">
+                <div class="ap">
+                    <div>
+                        <a href="#"><i class="fa-brands fa-wpforms" style="color: rgb(12, 161, 4);"></i></a>
+                    </div>
+                    <div>
+                        <h2>Apply New Leave</h2>
+                        <p>Fill the details below to submit your leave request</p>
+                    </div>
+                </div>
+                <div class="form-apply">
+                    <div class="input-apply">
+                        <label>Leave Type *</label>
+                        <select>
+                            <option>Casual Leave</option>
+                            <option>Sick Leave</option>
+                            <option>Privilege Leave</option>
+                        </select>
+                    </div>
+                     <div class="input-apply">
+                        <label>Duration Type</label>
+                        <select>
+                            <option>Single Day</option>
+                            <option>Multiple Days</option>
+                            <option>Half Day</option>
+                        </select>
+                     </div>
+                </div>
+
+                  <div class="form-apply">
+                    <div class="input-apply">
+                        <label>From Date</label>
+                        <input type="date">
+                        </div>
+                        <div class="input-apply">
+                        <label>To Date</label>
+                        <input type="date">
+                        </div>
+                     <div class="input-apply">
+                        <label>Total Days</label>
+                        <input type="text" value="4 days">
+                        </div>   
+                </div>
+                <div class="session-apply">
+                     <label>Session</label>
+                     <div class="radio-apply">
+                        <label>
+                            <input type="radio" name="session">
+                            Full Day
+                        </label>
+                        <label>
+                            <input type="radio" name="session">
+                            First Half
+                        </label>
+                         <label>
+                            <input type="radio" name="session">
+                           Second Half
+                        </label>
+                     </div>
+                </div>
+                <div class="input-apply reason-apply">
+                    <label>Reason For Leave</label>
+                    <textarea placeholder="Enter reason here....."></textarea>
+
+                </div>
+                <div class="upload-apply">
+
+                    <p>Upload Supporting Document</p>
+                    <input type="file">
+                </div>
+                <button class="submit-apply">
+                    Submit Leave Request
+                </button>
+            </div>
+
+           <div class="whole-req">
+            <div class="leave-req">
+                <div>
+                <h3>My Leave Requests</h3>
+                </div>
+                <div>
+                    <p>view All</p>
+                </div>
+            </div>
+            <div class="req1">
+                <div>
+                <h3>28 May 2026-31 May 2026</h3>
+                <p>Casual Leave  4 Days</p>
+                </div>
+                <div>
+                  <h5 class="orange6">Pending</h5>
+                  <h6>Requested on 24 May 2026</h6>
+                </div>
+            </div>
+             <div class="req1">
+                <div>
+                <h3>15 May 2026-15 May 2026</h3>
+                <p>Sick Leave  1 Day</p>
+                </div>
+                <div>
+                  <h5 class="green6">Approved</h5>
+                  <h6>Approved on 14 May 2026</h6>
+                </div>
+            </div>
+             <div class="req1">
+                <div>
+                <h3>02 May 2026-03 May 2026</h3>
+                <p>Privilege Leave  2 Days</p>
+                </div>
+                <div>
+                  <h5 class="green6">Approved</h5>
+                  <h6>Approved on 30 Apr 2026</h6>
+                </div>
+            </div>
+             <div class="req1">
+                <div>
+                <h3>20 Apr 2026-20 Apr 2026</h3>
+                <p>Casual Leave  1 Day</p>
+                </div>
+                <div>
+                  <h5 class="red6">Rejected</h5>
+                  <h6>Rejected on 19 Apr 2026</h6>
+                </div>
+            </div>
+            <div class="req1">
+                <div>
+                <h3>10 Apr 2026-12 Apr 2026</h3>
+                <p>Sick Leave  3 Days</p>
+                </div>
+                <div>
+                  <h5 class="black6">Cancelled</h5>
+                  <h6 >Cancelled on 09 Apr 2026</h6>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="whole-request">
+            <div class="whole-req2">
+             <div class="leave-req">
+                <div>
+                <h3>Team Leave Overview</h3>
+                </div>
+                <div>
+                    <p>view Calendar</p>
+                </div>
+            </div>
+
+            <div class="team">
+                <div>
+                    <img src="/images/dash3.jpg">
+                </div>
+                <div>
+                    <h3>Mary</h3>
+                    <p>HR Department</p>
+                </div>
+                <div class="orange-line">
+                    
+                </div>
+                <div>
+                    <p class="purp">2 Days</p>
+                </div>
+                <div >
+                    <h5 class="orange6">Pending</h5>
+                </div>
+            </div>
+              <div class="team">
+                <div>
+                    <img src="/images/dash2.jpg">
+                </div>
+                <div>
+                    <h3>Sai Krishna</h3>
+                    <p>Trainer</p>
+                </div>
+                <div class="green1-line">
+                    
+                </div>
+                <div>
+                    <p class="purp">2 Days</p>
+                </div>
+                <div >
+                    <h5 class="green6">Approved</h5>
+                </div>
+            </div>
+            <div class="team">
+                <div>
+                    <img src="/images/admin.jpg">
+                </div>
+                <div>
+                    <h3>Tajunnisa</h3>
+                    <p>IT Department</p>
+                </div>
+                <div class="green2-line">
+                    
+                </div>
+                <div>
+                    <p class="purp">1 Day</p>
+                </div>
+                <div >
+                    <h5 class="green6">Approved</h5>
+                </div>
+            </div>
+             <div class="team">
+                <div>
+                    <img src="/images/dash5.jpg">
+                </div>
+                <div>
+                    <h3>Rafiya</h3>
+                    <p>Finance Dept</p>
+                </div>
+                <div class="red-line">
+                    
+                </div>
+                <div>
+                    <p class="purp">2 Days</p>
+                </div>
+                <div >
+                    <h5 class="green6">Approved</h5>
+                </div>
+            </div>
+             <div class="team">
+                <div>
+                    <img src="/images/dash4.jpg">
+                </div>
+                <div>
+                    <h3>Rakesh</h3>
+                    <p>Marketing Dept</p>
+                </div>
+                <div class="black-line">
+                    
+                </div>
+                <div>
+                    <p class="purp">1 Day</p>
+                </div>
+                <div >
+                    <h5 class="black6">Cancelled</h5>
+                </div>
+            </div>
+            </div>
+
+            <div class="whole-su">
+            <div class="summary-head">
+                <h4>Leave Summary(This Year)</h4>
+            </div>
+            <div class="whole-summa">
+            <div class="summa">
+                <a href="#"><i class="fa-solid fa-calendar" style="color: rgb(3, 136, 45);"></i></a>
+                <h4>19</h4>
+                <p>Total Applied</p>
+            </div>
+             <div class="summa">
+                <a href="#"><i class="fa-solid fa-circle-check" style="color: rgb(3, 136, 45);"></i></a>
+                <h4>12</h4>
+                <p>Approved</p>
+            </div>
+              <div class="summa">
+                <a href="#"><i class="fa-solid fa-clock" style="color: rgb(252, 119, 17);"></i></a>
+                <h4>2</h4>
+                <p>Pending</p>
+            </div>
+            </div>
+            <div class="whole-summa">
+             <div class="summa">
+                <a href="#"><i class="fa-solid fa-circle-xmark" style="color: rgb(200, 25, 8);"></i></a>
+                <h4>1</h4>
+                <p>Rejected</p>
+            </div>
+             <div class="summa">
+                <a href="#"><i class="fa-solid fa-circle-xmark" style="color: rgb(138, 137, 137);"></i></a>
+                <h4>1</h4>
+                <p>Cancelled</p>
+            </div>
+           </div>
+           </div>
+           </div>
+            
