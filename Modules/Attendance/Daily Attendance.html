@@ -1,309 +1,137 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-<link rel="stylesheet" href="/style.css">
+<head>
+    <link rel="stylesheet" href="../../style.css">
     <title>HRMS Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    </head>
-    <body>
-        
-        <!-- Side Nav bar -->
-         <div class="side-nav">
-             <img src="/images/logo.jpeg">
-            <a href="/Modules/Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
-            
-             <a href="/Modules/Profile/Personal.html"><i class="fa-regular fa-user" style="color:  rgb(255, 255, 255);"></i> My  Profile </a>
-             <a href="/Modules/Attendance/Daily Attendance.html"  class="active"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance </a>
-             <a href="/Modules/Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
-            
-             <a href="/Modules/Payroll/Payroll Overview.html"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll </a>
-             <a href="/Modules/Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
-             <a href="/Modules/Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement </a>
-             <a href="/Modules/Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports </a>
-             <a href="/Modules/Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment </a>
-             <a href="/Modules/Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance </a>
-               <a href="/Modules/Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management </a>
-            
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="side-nav">
+        <img src="../../images/logo.jpeg">
+        <a href="../Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
+        <a href="../Profile/Personal.html"><i class="fa-regular fa-user" style="color: rgb(255, 255, 255);"></i> My Profile</a>
+        <a href="Daily Attendance.html" class="active"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance</a>
+        <a href="../Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
+        <a href="../Payroll/Payroll Overview.html"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll</a>
+        <a href="../Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
+        <a href="../Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement</a>
+        <a href="../Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports</a>
+        <a href="../Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment</a>
+        <a href="../Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance</a>
+        <a href="../Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management</a>
+    </div>
+
+    <div class="top-nav">
+        <div class="nav-left">
+            <div class="nav-tabs">
+                <a href="Daily Attendance.html" class="active"><i class="fa-solid fa-calendar" style="color:navy;"></i>Daily Attendance</a>
+                <a href="Monthly Attendance.html"><i class="fa-solid fa-calendar-check" style="color:navy;"></i>Monthly Attendance</a>
+                <a href="in-out .html"><i class="fa-solid fa-gauge-simple-high" style="color:navy;"></i>Check-in /Check-out</a>
+            </div>
         </div>
-        <!-- Top Nav Bar -->
-         <div class="top-nav">
-             <div class="nav-left">
-                <div class="nav-tabs">
-           
-             <a href="/Modules/Attendance/Daily Attendance.html" class="active"><i class="fa-solid fa-calendar" style="color:navy;"></i>Daily Attendance</a>
-             <a href="/Modules/Attendance/Monthly Attendance.html" ><i class="fa-solid fa-calendar-check" style="color:navy;"></i>Monthly Attendance</a>
-            
-             <a href="/Modules/Attendance/in-out .html"><i class="fa-solid fa-gauge-simple-high" style="color:navy;"></i>Check-in /Check-out</a>
-             
-             </div>
-             </div>
-            
-                <div class="nav-right">
-                  <div class="profile">
-             <img src="/images/admin.jpg">
-             <span>Tajunnisa</span>
-             <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
-             
-        
-             </div>
-             </div>
-             </div>
-         <!-- <div class="con"> 
-               <h2>Daily Attendance</h2>
-               
-               </div>
-               <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at1"><i class="fa-solid fa-users" style="color: rgb(18, 217, 236);"></i></a>
-                </div>
-                <div>
-                    <h3>Total Employees</h3>
-                     <p>20</p>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at2"><i class="fa-solid fa-circle-check" style="color: rgb(8, 164, 21);"></i></a>
-                </div>
-                <div>
-                     <h3>Present Employees</h3>
-                     <p>15</p>
-                    <h6 class="green1">75.00%</h6>
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at3"><i class="fa-solid fa-circle-xmark" style="color: rgb(216, 34, 14);"></i></a>
-                </div>
-                <div>
-                    <h3>Absent Employees</h3>
-                    <p>3</p>
-                    <h6 class="red1">15.00%</h6>
-                </div>
-               </div>
-               
-                
-               </div>
-              <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at4"><i class="fa-solid fa-clock" style="color: rgb(210, 112, 8);"></i></a>
-                </div>
-                <div>
-                    <h3>Late Arrivals</h3>
-                     <p>2</p>
-                     <h6 class="orange">10.00%</h6>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at5"><i class="fa-regular fa-calendar" style="color: rgb(237, 19, 215);"></i></a>
-                </div>
-                <div>
-                     <h3>On Leave</h3>
-                     <p>0</p>
-                    <h6 class="purple">0.00%</h6>
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at4"><i class="fa-solid fa-hourglass-half" style="color: rgb(237, 150, 19);"></i></a>
-                </div>
-                <div>
-                    <h3>Half Day</h3>
-                    <p>0</p>
-                    <h6 class="orange">0.00%</h6>
-                </div>
-               </div> -->
-               
-                
-               </div>
-                 <div class="con">
-               <h2> Employee Daily Attendance (20)</h2>
-               
-               </div>
+        <div class="nav-right">
+            <div class="profile">
+                <img src="../../images/admin.jpg">
+                <span>Tajunnisa</span>
+                <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
+            </div>
+        </div>
+    </div>
 
-               <div class="att-lists">
-                <div>
-                    <ul>
-                        <li class="his">Employee ID</li><br>
-                        <li>EMP100001</li><br>
-                        <li>EMP100002</li><br>
-                        <li>EMP100003</li><br>
-                        <li>EMP100004</li><br>
-                        <li>EMP100005</li><br>
-                        <li>EMP100006</li><br>
-                        <li>EMP100007</li><br>
-                        <li>EMP100008</li><br>
-                        <li>EMP100009</li><br>
-                        <li>EMP1000010</li><br>
-                        <li>EMP1000011</li><br>
-                        <li>EMP1000012</li><br>
-                        <li>EMP1000013</li><br>
-                        <li>EMP1000014</li><br>
-                        <li>EMP1000015</li><br>
-                        <li>EMP1000016</li><br>
-                        <li>EMP1000017</li><br>
-                        <li>EMP1000018</li><br>
-                        <li>EMP1000019</li><br>
-                        <li>EMP1000020</li><br>
-                         
-                             
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li class="his">Employee Name</li><br>
-                        <li class="pink">Mary</li><br>
-                         <li class="pink">Sai Krishna</li><br>
-                          <li class="pink">Tajunnisa</li><br>
-                           <li class="pink">Rafiya</li><br>
-                            <li class="pink">Rakesh</li><br>
-                             <li class="pink">Naveen</li><br>
-                              <li class="pink">Aravind</li><br>
-                               <li class="pink">Kavya</li><br>
-                                 <li class="pink">Deepthi</li><br>
-                         <li class="pink">Poornima</li><br>
-                          <li class="pink">Akash</li><br>
-                           <li class="pink">Manikanta</li><br>
-                            <li class="pink">Vasihnav</li><br>
-                             <li class="pink">Prithvi</li><br>
-                              <li class="pink">Sai Lakshmi</li><br>
-                               <li class="pink">Suneel</li><br>
-                                <li class="pink">Shanmukh</li><br>
-                             <li class="pink">Prashanthi</li><br>
-                              <li class="pink">Sravani</li><br>
-                               <li class="pink">Hebba</li><br>
+    <!--
+    <div class="con">
+        <h2>Daily Attendance</h2>
+    </div>
+    <div class="works4">
+        <div class="work4">
+            <div><a href="#" class="at1"><i class="fa-solid fa-users" style="color: rgb(18, 217, 236);"></i></a></div>
+            <div><h3>Total Employees</h3><p>20</p></div>
+        </div>
+        <div class="work4">
+            <div><a href="#" class="at2"><i class="fa-solid fa-circle-check" style="color: rgb(8, 164, 21);"></i></a></div>
+            <div><h3>Present Employees</h3><p>15</p><h6 class="green1">75.00%</h6></div>
+        </div>
+        <div class="work4">
+            <div><a href="#" class="at3"><i class="fa-solid fa-circle-xmark" style="color: rgb(216, 34, 14);"></i></a></div>
+            <div><h3>Absent Employees</h3><p>3</p><h6 class="red1">15.00%</h6></div>
+        </div>
+    </div>
+    <div class="works4">
+        <div class="work4">
+            <div><a href="#" class="at4"><i class="fa-solid fa-clock" style="color: rgb(210, 112, 8);"></i></a></div>
+            <div><h3>Late Arrivals</h3><p>2</p><h6 class="orange">10.00%</h6></div>
+        </div>
+        <div class="work4">
+            <div><a href="#" class="at5"><i class="fa-regular fa-calendar" style="color: rgb(237, 19, 215);"></i></a></div>
+            <div><h3>On Leave</h3><p>0</p><h6 class="purple">0.00%</h6></div>
+        </div>
+        <div class="work4">
+            <div><a href="#" class="at4"><i class="fa-solid fa-hourglass-half" style="color: rgb(237, 150, 19);"></i></a></div>
+            <div><h3>Half Day</h3><p>0</p><h6 class="orange">0.00%</h6></div>
+        </div>
+    </div>
+    -->
 
-                        
-                             
-                    </ul>
-                </div>
-                 <div>
-                    <ul>
-                        <li class="his">Department</li><br>
-                        <li class="yellow">HR</li><br>
-                        <li class="yellow">Trainer</li><br>
-                        <li class="yellow">IT</li><br>
-                        <li class="yellow">Marketing</li><br>
-                        <li class="yellow">IT</li><br>
-                        <li class="yellow">IT</li><br>
-                        <li class="yellow">Sales</li><br>
-                        <li class="yellow">IT</li><br>
-                        <li class="yellow">IT</li><br>
-                        <li class="yellow">Finance</li><br>
-                        <li class="yellow">Sales</li><br>
-                        <li class="yellow">Marketing</li><br>
-                        <li class="yellow">Sales</li><br>
-                        <li class="yellow">IT</li><br>
-                        <li class="yellow">IT</li><br>
-                        <li class="yellow">Marketing</li><br>
-                        <li class="yellow">Sales</li><br>
-                        <li class="yellow">Marketing</li><br>
-                        <li class="yellow">Sales</li><br>
-                        <li class="yellow">IT</li><br>
-                    </ul>
-                </div>
-                 <div>
-                    <ul>
-                        <li class="his">Check-in</li><br>
-                        <li class="green3">09:05 AM</li><br>
-                         <li class="green3">09:12 AM</li><br>
-                          <li class="green3">09:10 AM</li><br>
-                        
-                            <li class="green3">09:18 AM</li><br>
-                           
-                        
-                              <li class="green3">09:22 AM</li><br>
-                         <li class="green3">09:03 AM</li><br>
-                          <li class="green3">-</li><br>
-                          <li class="green3">09:07 AM</li><br>
-                        
-                            <li class="green3">09:15 AM</li><br>
-                              <li class="green3">-</li><br>
-                        
-                        
-                          
-                              <li class="green3">09:00 AM</li><br>
-                         <li class="green3">09:16 AM</li><br>
-                          <li class="green3">09:08 AM</li><br>
-                        
-                            <li class="green3">09:09 AM</li><br>
-                            
-                              <li class="green3">09:11 AM</li><br>
-                         <li class="green3">-</li><br>
-                          <li class="green3">09:14 AM</li><br>
-                        
-                            <li class="green3">09:17 AM</li><br>
-                              <li class="green3">09:04 AM</li><br>
-                              <li class="green3">09:00 AM</li><br>
+    <div class="con">
+        <h2>Employee Daily Attendance (20)</h2>
+    </div>
 
-                              
-                             
-                    </ul>
-                </div>
-                
-                <div>
-                    
-                    <ul>
-                        <li class="his">Check-Out</li><br>
-                        <li  class="red3">06:10 PM</li><br>
-                         <li  class="red3">06:05 PM</li><br>
-                          <li  class="red3">06:08 PM</li><br>
-                           <li  class="red3">06:15 PM</li><br>
-                            <li  class="red3">06:17 PM</li><br>
-                             <li  class="red3">06:02 PM</li><br>
-                              <li  class="red3">-</li><br>
-                               <li  class="red3">06:03 PM</li><br>
-                                <li  class="red3">06:11 PM</li><br>
-                                <li  class="red3">-</li><br>
-                         <li  class="red3">06:00 PM</li><br>
-                          <li  class="red3">06:12 PM</li><br>
-                           <li  class="red3">06:04 PM</li><br>
-                            <li  class="red3">06:05 PM</li><br>
-                             <li  class="red3">06:07 PM</li><br>
-                              <li  class="red3">-</li><br>
-                               <li  class="red3">06:01 PM</li><br>
-                                <li  class="red3">06:10 PM</li><br>
-                                <li  class="red3" >06:13 PM</li><br>
-                                <li  class="red3">06:03 PM</li><br>
-                      
-                             
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li class="his">Status</li><br>
-                        <li class="green">Present</li><br>
-                        <li  class="green">Present</li><br>
-                        <li  class="green">Present</li><br>
-                        <li class="orange">Late</li><br>
-                        <li  class="orange">Late</li><br>
-                        <li  class="green">Present</li><br>
-                        <li class="red">Absent</li><br>
-                        <li  class="green">Present</li><br>
-                        <li  class="green">Present</li><br>
-                        <li class="red">Absent</li><br>
-                        <li  class="green">Present</li><br>
-                        <li  class="orange">Late</li><br>
-                        <li  class="green">Present</li><br>
-                        <li  class="green">Present</li><br>
-                        <li  class="green">Present</li><br>
-                        <li class="red">Absent</li><br>
-                        <li  class="green">Present</li><br>
-                        <li  class="green">Present</li><br>
-                        <li  class="orange">Late</li><br>
-                        <li  class="green">Present</li><br>
-                    </ul>
-                </div>
-                </div>
-                
+    <div class="att-lists">
+        <div>
+            <ul>
+                <li class="his">Employee ID</li><br>
+                <li>EMP100001</li><br><li>EMP100002</li><br><li>EMP100003</li><br><li>EMP100004</li><br><li>EMP100005</li><br>
+                <li>EMP100006</li><br><li>EMP100007</li><br><li>EMP100008</li><br><li>EMP100009</li><br><li>EMP1000010</li><br>
+                <li>EMP1000011</li><br><li>EMP1000012</li><br><li>EMP1000013</li><br><li>EMP1000014</li><br><li>EMP1000015</li><br>
+                <li>EMP1000016</li><br><li>EMP1000017</li><br><li>EMP1000018</li><br><li>EMP1000019</li><br><li>EMP1000020</li><br>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="his">Employee Name</li><br>
+                <li class="pink">Mary</li><br><li class="pink">Sai Krishna</li><br><li class="pink">Tajunnisa</li><br><li class="pink">Rafiya</li><br><li class="pink">Rakesh</li><br>
+                <li class="pink">Naveen</li><br><li class="pink">Aravind</li><br><li class="pink">Kavya</li><br><li class="pink">Deepthi</li><br><li class="pink">Poornima</li><br>
+                <li class="pink">Akash</li><br><li class="pink">Manikanta</li><br><li class="pink">Vasihnav</li><br><li class="pink">Prithvi</li><br><li class="pink">Sai Lakshmi</li><br>
+                <li class="pink">Suneel</li><br><li class="pink">Shanmukh</li><br><li class="pink">Prashanthi</li><br><li class="pink">Sravani</li><br><li class="pink">Hebba</li><br>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="his">Department</li><br>
+                <li class="yellow">HR</li><br><li class="yellow">Trainer</li><br><li class="yellow">IT</li><br><li class="yellow">Marketing</li><br><li class="yellow">IT</li><br>
+                <li class="yellow">IT</li><br><li class="yellow">Sales</li><br><li class="yellow">IT</li><br><li class="yellow">IT</li><br><li class="yellow">Finance</li><br>
+                <li class="yellow">Sales</li><br><li class="yellow">Marketing</li><br><li class="yellow">Sales</li><br><li class="yellow">IT</li><br><li class="yellow">IT</li><br>
+                <li class="yellow">Marketing</li><br><li class="yellow">Sales</li><br><li class="yellow">Marketing</li><br><li class="yellow">Sales</li><br><li class="yellow">IT</li><br>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="his">Check-in</li><br>
+                <li class="green3">09:05 AM</li><br><li class="green3">09:12 AM</li><br><li class="green3">09:10 AM</li><br><li class="green3">09:18 AM</li><br><li class="green3">09:22 AM</li><br>
+                <li class="green3">09:03 AM</li><br><li class="green3">-</li><br><li class="green3">09:07 AM</li><br><li class="green3">09:15 AM</li><br><li class="green3">-</li><br>
+                <li class="green3">09:00 AM</li><br><li class="green3">09:16 AM</li><br><li class="green3">09:08 AM</li><br><li class="green3">09:09 AM</li><br><li class="green3">09:11 AM</li><br>
+                <li class="green3">-</li><br><li class="green3">09:14 AM</li><br><li class="green3">09:17 AM</li><br><li class="green3">09:04 AM</li><br><li class="green3">09:00 AM</li><br>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="his">Check-Out</li><br>
+                <li class="red3">06:10 PM</li><br><li class="red3">06:05 PM</li><br><li class="red3">06:08 PM</li><br><li class="red3">06:15 PM</li><br><li class="red3">06:17 PM</li><br>
+                <li class="red3">06:02 PM</li><br><li class="red3">-</li><br><li class="red3">06:03 PM</li><br><li class="red3">06:11 PM</li><br><li class="red3">-</li><br>
+                <li class="red3">06:00 PM</li><br><li class="red3">06:12 PM</li><br><li class="red3">06:04 PM</li><br><li class="red3">06:05 PM</li><br><li class="red3">06:07 PM</li><br>
+                <li class="red3">-</li><br><li class="red3">06:01 PM</li><br><li class="red3">06:10 PM</li><br><li class="red3">06:13 PM</li><br><li class="red3">06:03 PM</li><br>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="his">Status</li><br>
+                <li class="green">Present</li><br><li class="green">Present</li><br><li class="green">Present</li><br><li class="orange">Late</li><br><li class="orange">Late</li><br>
+                <li class="green">Present</li><br><li class="red">Absent</li><br><li class="green">Present</li><br><li class="green">Present</li><br><li class="red">Absent</li><br>
+                <li class="green">Present</li><br><li class="orange">Late</li><br><li class="green">Present</li><br><li class="green">Present</li><br><li class="green">Present</li><br>
+                <li class="red">Absent</li><br><li class="green">Present</li><br><li class="green">Present</li><br><li class="orange">Late</li><br><li class="green">Present</li><br>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
