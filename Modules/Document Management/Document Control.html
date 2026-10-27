@@ -1,283 +1,238 @@
+```html
 <!DOCTYPE html>
 <html>
-    <head>
-<link rel="stylesheet" href="/style.css">
+<head>
+    <link rel="stylesheet" href="../../style.css">
     <title>HRMS Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    </head>
-    <body>
-        
-        <!-- Side Nav bar -->
-         <div class="side-nav">
-             <img src="/images/logo.jpeg">
-            <a href="/Modules/Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
-            
-             <a href="/Modules/Profile/Personal.html"><i class="fa-regular fa-user" style="color:  rgb(255, 255, 255);"></i>My Profile  </a>
-             <a href="/Modules/Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance </a>
-             <a href="/Modules/Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
-            
-             <a href="/Modules/Payroll/Payroll Overview.html" ><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll </a>
-             <a href="/Modules/Document Management/Document overview.html" class="active"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
-             <a href="/Modules/Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement </a>
-             <a href="/Modules/Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports </a>
-             <a href="/Modules/Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment </a>
-             <a href="/Modules/Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance </a>
-               <a href="/Modules/Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management </a>
-            
-    
-        </div>
-        <!-- Top Nav Bar -->
-         
-            <div class="top-nav">
-              <div class="nav-left">
-                <div class="nav-tabs">
-             <a href="/Modules/Document Management/Document overview.html" ><i class="fa-solid fa-book" style="color: rgb(4, 10, 148);"></i>Document Overview</a>
-             
-           
-             
-             <a href="/Modules/Document Management/Document Tracker.html"><i class="fa-solid fa-folder-minus" style="color: rgb(6, 18, 141);"></i>Document Tracker</a>
-               <a href="/Modules/Document Management/Document Control.html" class="active" ><i class="fa-solid fa-folder" style="color: rgb(4, 10, 148);"></i>Document Control</a>
-             
-             </div>
-             </div>
-            
-                <div class="nav-right">
-                  <div class="profile">
-             <img src="/images/admin.jpg">
-             <span>Tajunnisa </span>
-             <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
-             
-        
-             </div>
-             </div>
-             </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="side-nav">
+        <img src="../../images/logo.jpeg">
+        <a href="../Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
+        <a href="../Profile/Personal.html"><i class="fa-regular fa-user" style="color: rgb(255, 255, 255);"></i>My Profile</a>
+        <a href="../Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance</a>
+        <a href="../Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
+        <a href="../Payroll/Payroll Overview.html"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll</a>
+        <a href="Document overview.html" class="active"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
+        <a href="../Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement</a>
+        <a href="../Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports</a>
+        <a href="../Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment</a>
+        <a href="../Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance</a>
+        <a href="../Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management</a>
+    </div>
 
-
-                 <div class="welcome">
-                <h2>Document Control</h2>
-                <p>Manage access,permissions,versions and compliance for all documents.</p>
-            </div>  
-<!-- 
-             <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at1"><i class="fa-solid fa-key" style="color: rgb(8, 19, 254);"></i></a>
-                </div>
-                <div>
-                    <h3>Access Requests</h3>
-                     <p>24</p>
-                     <h6 class="blue">Pending Approval</h6>
-                   
-                     
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at2"><i class="fa-solid fa-clock" style="color: rgb(10, 148, 53);"></i></a>
-                </div>
-                <div>
-                     <h3>Expiring Permissions</h3>
-                     <p>12</p>
-                   
-                    <h6 class="green1">In Next 30 Days</h6>
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at3"><i class="fa-solid fa-ban" style="color: rgb(232, 46, 34);"></i></a>
-                </div>
-                <div>
-                    <h3>Restricted Documents</h3>
-                    <p>18</p>
-                   
-                    <h6 class="red1">Access Limited</h6>
-                </div>
-               </div>
-               
-                
-               </div>
-                 <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at4"><i class="fa-solid fa-sync" style="color: rgb(222, 125, 5);"></i></a>
-                </div>
-                <div>
-                    <h3>Version Updates</h3>
-                     <p>9</p>
-                     <h6 class="orange">Updated this month</h6>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at5"><i class="fa-solid fa-hdd" style="color: rgb(151, 3, 156);"></i></a>
-                </div>
-                <div>
-                     <h3>Compliance Score</h3>
-                     <p>94%</p>
-                    
-                    <h6 class="purple">Above Target</h6>
-                   
-                </div>
+    <div class="top-nav">
+        <div class="nav-left">
+            <div class="nav-tabs">
+                <a href="Document overview.html"><i class="fa-solid fa-book" style="color: rgb(4, 10, 148);"></i>Document Overview</a>
+                <a href="Document Tracker.html"><i class="fa-solid fa-folder-minus" style="color: rgb(6, 18, 141);"></i>Document Tracker</a>
+                <a href="Document Control.html" class="active"><i class="fa-solid fa-folder" style="color: rgb(4, 10, 148);"></i>Document Control</a>
             </div>
-               
-                
-                </div> -->
+        </div>
+        <div class="nav-right">
+            <div class="profile">
+                <img src="../../images/admin.jpg">
+                <span>Tajunnisa</span>
+                <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
+            </div>
+        </div>
+    </div>
 
+    <div class="welcome">
+        <h2>Document Control</h2>
+        <p>Manage access,permissions,versions and compliance for all documents.</p>
+    </div>
 
-               <div class="permission">
-                  <div class="docu1">
-                <div>
-                    <h2>Top Active Users</h2>
-                </div>
-                <div>
-                    <p>View All</p>
-                </div>
-              </div>
-              <div class="price-table">
-        <table>
-          <thead>
-          <tr>
-            <th>User Role</th>
-             <th>View</th>
-              <th>Download</th>
-               <th>Edit</th>
-                <th>Delete</th>
-                <th>Share</th>
-                <th>Approve</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="user-role">HR Managers</td>
-              <td class="tick">✔</td>
-                <td class="tick">✔</td>
-                  <td class="tick">✔</td>
-                    <td class="tick">✔</td>
-                      <td class="tick">✔</td>
+    <!--
+    <div class="works4">
+        <div class="work4">
+            <div>
+                <a href="#" class="at1"><i class="fa-solid fa-key" style="color: rgb(8, 19, 254);"></i></a>
+            </div>
+            <div>
+                <h3>Access Requests</h3>
+                <p>24</p>
+                <h6 class="blue">Pending Approval</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at2"><i class="fa-solid fa-clock" style="color: rgb(10, 148, 53);"></i></a>
+            </div>
+            <div>
+                <h3>Expiring Permissions</h3>
+                <p>12</p>
+                <h6 class="green1">In Next 30 Days</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at3"><i class="fa-solid fa-ban" style="color: rgb(232, 46, 34);"></i></a>
+            </div>
+            <div>
+                <h3>Restricted Documents</h3>
+                <p>18</p>
+                <h6 class="red1">Access Limited</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="works4">
+        <div class="work4">
+            <div>
+                <a href="#" class="at4"><i class="fa-solid fa-sync" style="color: rgb(222, 125, 5);"></i></a>
+            </div>
+            <div>
+                <h3>Version Updates</h3>
+                <p>9</p>
+                <h6 class="orange">Updated this month</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at5"><i class="fa-solid fa-hdd" style="color: rgb(151, 3, 156);"></i></a>
+            </div>
+            <div>
+                <h3>Compliance Score</h3>
+                <p>94%</p>
+                <h6 class="purple">Above Target</h6>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <div class="permission">
+        <div class="docu1">
+            <div>
+                <h2>Top Active Users</h2>
+            </div>
+            <div>
+                <p>View All</p>
+            </div>
+        </div>
+
+        <div class="price-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>User Role</th>
+                        <th>View</th>
+                        <th>Download</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                        <th>Share</th>
+                        <th>Approve</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="user-role">HR Managers</td>
                         <td class="tick">✔</td>
-
-          </tr>
-          <tr>
-            <td class="user-role">Managers</td>
-              <td class="tick">✔</td>
-                <td class="tick">✔</td>
-                  <td class="tick">✔</td>
-                    <td class="tick">✔</td>
-                      <td class="tick">✔</td>
                         <td class="tick">✔</td>
-
-          </tr>
-           <tr>
-            <td class="user-role">Department Heads</td>
-              <td class="tick">✔</td>
-                <td class="tick">✔</td>
-                  <td class="tick">✔</td>
-                    <td class="minus"> ▬</td>
-                      <td class="tick">✔</td>
                         <td class="tick">✔</td>
-              
-          </tr>
-          <tr>
-            <td class="user-role">Employees</td>
-              <td class="tick">✔</td>
-                <td class="cross">✗</td>
-                <td class="cross">✗</td>
-                <td class="cross">✗</td>
-                <td class="minus"> ▬</td>
-                <td class="cross">✗</td>
-                  
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                    </tr>
+                    <tr>
+                        <td class="user-role">Managers</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                    </tr>
+                    <tr>
+                        <td class="user-role">Department Heads</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="minus">▬</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                    </tr>
+                    <tr>
+                        <td class="user-role">Employees</td>
+                        <td class="tick">✔</td>
+                        <td class="cross">✗</td>
+                        <td class="cross">✗</td>
+                        <td class="cross">✗</td>
+                        <td class="minus">▬</td>
+                        <td class="cross">✗</td>
+                    </tr>
+                    <tr>
+                        <td class="user-role">IT Admins</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="cross">✗</td>
+                        <td class="cross">✗</td>
+                        <td class="minus">▬</td>
+                        <td class="minus">▬</td>
+                    </tr>
+                    <tr>
+                        <td class="user-role">Auditors</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="cross">✗</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                        <td class="tick">✔</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>Manage role permissions ➔</p>
+    </div>
 
-          </tr>
-          <tr>
-            <td class="user-role">IT Admins</td>
-              <td class="tick">✔</td>
-                <td class="tick">✔</td>
-                 <td class="cross">✗</td>
-                <td class="cross">✗</td>
-                <td class="minus"> ▬</td>
-                 <td class="minus"> ▬</td>
+    <div class="version">
+        <div class="docu1">
+            <div>
+                <h2>Document Version Tracking</h2>
+            </div>
+            <div>
+                <p>View All</p>
+            </div>
+        </div>
 
-                
-          </tr>
-            <tr>
-            <td class="user-role">Auditors</td>
-              <td class="tick">✔</td>
-                <td class="tick">✔</td>
-                    <td class="cross">✗</td>
-                    <td class="tick">✔</td>
-                <td class="tick">✔</td>
-                 <td class="tick">✔</td>
-
-
-             
-          </tr>
-           
-           
-        
-          </tbody>
-        </table>
-       </div>
-         <p>Manage role permissions ➔</p>
-       </div> 
-
-
-       <div class="version">
-       <div class="docu1">
-                <div>
-                    <h2>Document Version Tracking</h2>
-                </div>
-                <div>
-                    <p>View All</p>
-                </div>
-              </div>
-
-              <div class="ver1">
-                <div class="ver2">
-                  <ul>
+        <div class="ver1">
+            <div class="ver2">
+                <ul>
                     <li><a href="#"><i class="fa-solid fa-circle-dot" style="color: rgb(7, 26, 174);"></i>Version 2.3<span>Current</span></a></li><br>
                     <li><a href="#"><i class="fa-solid fa-circle-dot" style="color: rgb(7, 26, 174);"></i>Version 2.2</a></li><br>
                     <li><a href="#"><i class="fa-solid fa-circle-dot" style="color: rgb(7, 26, 174);"></i>Version 2.1</a></li><br>
                     <li><a href="#"><i class="fa-solid fa-circle-dot" style="color: rgb(7, 26, 174);"></i>Version 2.0</a></li><br>
-                    
-                  </ul>
-                </div>
-                 <div class="ver3">
-                  <ul>
-                     <li>Updated by Mary<br>Added Section on remote work policy</li><br>
+                </ul>
+            </div>
+            <div class="ver3">
+                <ul>
+                    <li>Updated by Mary<br>Added Section on remote work policy</li><br>
                     <li>Updated by Sai Krishna<br>Revised leave policy for 2026</li><br>
                     <li>Updated by Mary<br>Added new document templates</li><br>
                     <li>Updated by Mahesh<br>Initial version created</li><br>
-                  </ul>
-                </div>
-                <div class="ver2">
-                  <ul>
+                </ul>
+            </div>
+            <div class="ver2">
+                <ul>
                     <li>May 29,2026</li><br>
                     <li>April 15,2026</li><br>
                     <li>March 10,2026</li><br>
                     <li>January 5,2026</li><br>
-                  </ul>
-                </div>
-              
-
-                <div class="ver2">
-                  <ul>
+                </ul>
+            </div>
+            <div class="ver2">
+                <ul>
                     <li>10:30 AM</li><br>
                     <li>2:15 PM</li><br>
                     <li>4:00 PM</li><br>
                     <li>9:00 AM</li><br>
-                  </ul>
-                </div>
-                </div>
+                </ul>
+            </div>
+        </div>
 
-                <p>View  Version History  ➔</p>
-              </div>
-            
-            
-      
-       </div>
+        <p>View Version History ➔</p>
+    </div>
+</body>
+</html>
+```
