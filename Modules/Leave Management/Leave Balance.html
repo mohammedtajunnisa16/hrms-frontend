@@ -1,68 +1,57 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-<link rel="stylesheet" href="/style.css">
+<head>
+    <link rel="stylesheet" href="../../style.css">
     <title>HRMS Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    </head>
-    <body>
-        
-        <!-- Side Nav bar -->
-         <div class="side-nav">
-             <img src="/images/logo.jpeg">
-            <a href="/Modules/Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
-            
-             <a href="/Modules/Profile/Personal.html"><i class="fa-regular fa-user" style="color:  rgb(255, 255, 255);"></i> My  Profile </a>
-             <a href="/Modules/Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance </a>
-             <a href="/Modules/Leave Management/Apply Leave.html" class="active"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
-            
-             <a href="/Modules/Payroll/Payroll Overview.html"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll </a>
-             <a href="/Modules/Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
-             <a href="/Modules/Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement </a>
-             <a href="/Modules/Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports </a>
-             <a href="/Modules/Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment </a>
-             <a href="/Modules/Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance </a>
-              <a href="/Modules/Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management </a>
-            
-    
-        </div>
-        <!-- Top Nav Bar -->
-         <div class="top-nav">
-             <div class="nav-left">
-                <div class="nav-tabs">
-           
-             <a href="/Modules/Leave Management/Apply Leave.html"><i class="fa-solid fa-person-walking-arrow-right" style="color:navy;"></i>Apply Leave</a>
-             <a href="/Modules/Leave Management/Leave Balance.html"  class="active"><i class="fa-solid fa-calendar-week" style="color: rgb(20, 16, 140);"></i>Leave Balance</a>
-            
-             <a href="/Modules/Leave Management/leave approval.html"><i class="fa-solid fa-calendar-day" style="color: rgb(4, 8, 123);"></i>Leave Approval</a>
-             
-             </div> 
-             </div>
-            
-                <div class="nav-right">
-                  <div class="profile">
-             <img src="/images/admin.jpg">
-             <span>Tajunnisa</span>
-             <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
-             
-        
-             </div>
-             </div>
-             </div> class="active"
-              <div class="welcome">
-                <h2>Leave Balance</h2>
-                <p>Overview of Your team's leave balance </p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="side-nav">
+        <img src="../../images/logo.jpeg">
+        <a href="../Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
+        <a href="../Profile/Personal.html"><i class="fa-regular fa-user" style="color: rgb(255, 255, 255);"></i> My Profile</a>
+        <a href="../Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance</a>
+        <a href="Apply Leave.html" class="active"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
+        <a href="../Payroll/Payroll Overview.html"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll</a>
+        <a href="../Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
+        <a href="../Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement</a>
+        <a href="../Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports</a>
+        <a href="../Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment</a>
+        <a href="../Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance</a>
+        <a href="../Task Management/Task Overview.html"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management</a>
+    </div>
+
+    <div class="top-nav">
+        <div class="nav-left">
+            <div class="nav-tabs">
+                <a href="Apply Leave.html"><i class="fa-solid fa-person-walking-arrow-right" style="color:navy;"></i>Apply Leave</a>
+                <a href="Leave Balance.html" class="active"><i class="fa-solid fa-calendar-week" style="color: rgb(20, 16, 140);"></i>Leave Balance</a>
+                <a href="leave approval.html"><i class="fa-solid fa-calendar-day" style="color: rgb(4, 8, 123);"></i>Leave Approval</a>
             </div>
-            <div class="balance">
-            <div class="whole-bal">
+        </div>
+        <div class="nav-right">
+            <div class="profile">
+                <img src="../../images/admin.jpg">
+                <span>Tajunnisa</span>
+                <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="welcome">
+        <h2>Leave Balance</h2>
+        <p>Overview of Your team's leave balance</p>
+    </div>
+
+    <div class="balance">
+        <div class="whole-bal">
             <div class="bal">
                 <h3>Leave Balance by Type</h3>
             </div>
+
             <div class="bal1">
-                <div>
-                <a href="#"><i class="fa-solid fa-calendar-xmark" style="color: rgb(20, 16, 140);"></i></a>
-                </div>
+                <div><a href="#"><i class="fa-solid fa-calendar-xmark" style="color: rgb(20, 16, 140);"></i></a></div>
                 <div>
                     <h5>Casual Leave</h5>
                     <p>(CL)</p>
@@ -76,10 +65,9 @@
                     <h3>90 Days</h3>
                 </div>
             </div>
-             <div class="bal1">
-                <div>
-                <a href="#"><i class="fa-solid fa-calendar-days" style="color: rgb(20, 16, 140);"></i></a>
-                </div>
+
+            <div class="bal1">
+                <div><a href="#"><i class="fa-solid fa-calendar-days" style="color: rgb(20, 16, 140);"></i></a></div>
                 <div>
                     <h5>Sick Leave</h5>
                     <p>(SL)</p>
@@ -93,10 +81,9 @@
                     <h3>30 Days</h3>
                 </div>
             </div>
-              <div class="bal1">
-                <div>
-                <a href="#"><i class="fa-solid fa-calendar-plus" style="color: rgb(20, 16, 140);"></i></a>
-                </div>
+
+            <div class="bal1">
+                <div><a href="#"><i class="fa-solid fa-calendar-plus" style="color: rgb(20, 16, 140);"></i></a></div>
                 <div>
                     <h5>Earned Leave</h5>
                     <p>(EL)</p>
@@ -110,10 +97,9 @@
                     <h3>20 Days</h3>
                 </div>
             </div>
+
             <div class="bal1">
-                <div>
-                <a href="#"><i class="fa-solid fa-calendar-minus" style="color: rgb(20, 16, 140);"></i></a>
-                </div>
+                <div><a href="#"><i class="fa-solid fa-calendar-minus" style="color: rgb(20, 16, 140);"></i></a></div>
                 <div>
                     <h5>Privilege Leave</h5>
                     <p>(PL)</p>
@@ -127,10 +113,9 @@
                     <h3>6 Days</h3>
                 </div>
             </div>
-             <div class="bal1">
-                <div>
-                <a href="#"><i class="fa-solid fa-plane" style="color: rgb(20, 16, 140);"></i></a>
-                </div>
+
+            <div class="bal1">
+                <div><a href="#"><i class="fa-solid fa-plane" style="color: rgb(20, 16, 140);"></i></a></div>
                 <div>
                     <h5>Camp Off</h5>
                     <p>(CO)</p>
@@ -144,51 +129,44 @@
                     <h3>4 Days</h3>
                 </div>
             </div>
-             </div>
+        </div>
 
-             <div class="bal-over">
-                <h3>Balance Overview</h3> 
-                <img src="/images/apply1.jpeg">
-            
-                 <div class="remain">
+        <div class="bal-over">
+            <h3>Balance Overview</h3>
+            <img src="../../images/apply1.jpeg">
+
+            <div class="remain">
                 <div class="remian-icon">
-                    <list>
-                        <ul>
-                            <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(20, 16, 140);"></i></a></li><br>
-                            <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(3, 136, 45);"></i></a></li><br>
-                            <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(125, 3, 136);"></i></a></li><br>
-                            <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(136, 63, 3);"></i></a></li><br>
-                            <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(3, 136, 133);"></i></a></li><br>
-
-                        </ul>
-                    </list>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(20, 16, 140);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(3, 136, 45);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(125, 3, 136);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(136, 63, 3);"></i></a></li><br>
+                        <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(3, 136, 133);"></i></a></li><br>
+                    </ul>
                 </div>
+
                 <div class="remain-leave">
-                    <list>
-                        <ul>
-                            <li>Casual Leave (34%)</li><br>
-                             <li>Sick Leave (27%)</li><br>
-                              <li>Earned Leave (23%)</li><br>
-                               <li>Privilege Leave (10%)</li><br>
-                                <li>Camp Off (6%)</li><br>
-
-                        </ul>
-                    </list>
+                    <ul>
+                        <li>Casual Leave (34%)</li><br>
+                        <li>Sick Leave (27%)</li><br>
+                        <li>Earned Leave (23%)</li><br>
+                        <li>Privilege Leave (10%)</li><br>
+                        <li>Camp Off (6%)</li><br>
+                    </ul>
                 </div>
+
                 <div class="remain-days">
-                    <list>
-                        <ul>
-                            <li>310 Days</li><br>
-                            <li>248 Days</li><br>
-                            <li>210</li><br>
-                            <li>95 Days</li><br>
-                            <li>50 Days</li><br>
-                        </ul>
-                    </list>
+                    <ul>
+                        <li>310 Days</li><br>
+                        <li>248 Days</li><br>
+                        <li>210</li><br>
+                        <li>95 Days</li><br>
+                        <li>50 Days</li><br>
+                    </ul>
                 </div>
-
-             </div>
-             </div>
-             </div>
-       
-            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
