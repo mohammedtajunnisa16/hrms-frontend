@@ -1,252 +1,230 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-<link rel="stylesheet" href="/style.css">
+<head>
+    <link rel="stylesheet" href="../../style.css">
     <title>HRMS Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    </head>
-    <body>
-        
-        <!-- Side Nav bar -->
-         <div class="side-nav">
-             <img src="/images/logo.jpeg">
-            <a href="/Modules/Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
-            
-             <a href="/Modules/Profile/Personal.html"><i class="fa-regular fa-user" style="color:  rgb(255, 255, 255);"></i>My Profile  </a>
-             <a href="/Modules/Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance </a>
-             <a href="/Modules/Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
-            
-             <a href="/Modules/Payroll/Payroll Overview.html" ><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll </a>
-             <a href="/Modules/Document Management/Document overview.html" ><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
-             <a href="/Modules/Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement </a>
-             <a href="/Modules/Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports </a>
-             <a href="/Modules/Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment </a>
-             <a href="/Modules/Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance </a>
-             <a href="/Modules/Task Management/Task Overview.html"class="active"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management </a>
-            
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- Side Nav bar -->
+    <div class="side-nav">
+        <img src="../../images/logo.jpeg">
+        <a href="../Dashboard/Overview.html"><i class="fa-regular fa-house" style="color: rgb(255, 255, 255);"></i>Dashboard</a>
+        <a href="../Profile/Personal.html"><i class="fa-regular fa-user" style="color: rgb(255, 255, 255);"></i>My Profile</a>
+        <a href="../Attendance/Daily Attendance.html"><i class="fa-solid fa-calendar-check" style="color: rgb(255, 255, 255);"></i>Attendance</a>
+        <a href="../Leave Management/Apply Leave.html"><i class="fa-solid fa-calendar-day" style="color: rgb(255, 255, 255);"></i>Leave Management</a>
+        <a href="../Payroll/Payroll Overview.html"><i class="fa-solid fa-money-bill" style="color: rgb(255, 255, 255);"></i>Payroll</a>
+        <a href="../Document Management/Document overview.html"><i class="fa-solid fa-book" style="color: rgb(255, 255, 255);"></i>Document Management</a>
+        <a href="../Announcements/Announcement overview.html"><i class="fa-solid fa-bullhorn" style="color: rgb(255, 255, 255);"></i>Announcement</a>
+        <a href="../Reports/Reports overview.html"><i class="fa-solid fa-chart-column" style="color: rgb(255, 255, 255);"></i>Reports</a>
+        <a href="../Recruitment/Recruitment overview.html"><i class="fa-brands fa-hive" style="color: rgb(255, 255, 255);"></i>Recruitment</a>
+        <a href="../Performance/Performance overview.html"><i class="fa-solid fa-arrow-trend-up" style="color: rgb(255, 255, 255);"></i>Performance</a>
+        <a href="Task Overview.html" class="active"><i class="fa-solid fa-list-check" style="color: rgb(255, 255, 255);"></i>Task Management</a>
+    </div>
+
+    <!-- Top Nav Bar -->
+    <div class="top-nav">
+        <div class="nav-left">
+            <div class="nav-tabs">
+                <a href="Task Overview.html" class="active"><i class="fa-solid fa-list-check" style="color: rgb(18, 6, 127);"></i>Task Overview</a>
+                <a href="Task Board.html"><i class="fa-regular fa-clipboard" style="color: rgb(11, 4, 111);"></i>Task Board</a>
+                <a href="Task Performance.html"><i class="fa-solid fa-clipboard-question" style="color: rgb(24, 7, 134);"></i>Task Performance</a>
+            </div>
         </div>
-        <!-- Top Nav Bar -->
-         
-            <div class="top-nav">
-              <div class="nav-left">
-                <div class="nav-tabs">
-             <a href="/Modules/Task Management/Task Overview.html" class="active" ><i class="fa-solid fa-list-check" style="color: rgb(18, 6, 127);"></i>Task Overview</a>
-             
-             
-               <a href="/Modules/Task Management/Task Board.html"><i class="fa-regular fa-clipboard" style="color: rgb(11, 4, 111);"></i>Task Board</a>
-             <a href="/Modules/Task Management/Task Performance.html"><i class="fa-solid fa-clipboard-question" style="color: rgb(24, 7, 134);"></i>Task Performance</a>
-            
+        <div class="nav-right">
+            <div class="profile">
+                <img src="../../images/admin.jpg">
+                <span>Tajunnisa</span>
+                <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
             </div>
-             </div>
-            
-                <div class="nav-right">
-                  <div class="profile">
-             <img src="/images/admin.jpg">
-             <span>Tajunnisa </span>
-             <a href="#"><i class="fa-solid fa-angle-down" style="color: rgb(105, 107, 115);"></i></a>
-             
-        
-             </div>
-             </div>
-             </div>
-             <div class="welcome">
-                <h2>Task Management-Overview</h2>
-                <p>Get a snapshot of all tasks,progress and team productivity..</p>
+        </div>
+    </div>
+
+    <div class="welcome">
+        <h2>Task Management - Overview</h2>
+        <p>Get a snapshot of all tasks, progress and team productivity.</p>
+    </div>
+
+    <!--
+    <div class="works4">
+        <div class="work4">
+            <div>
+                <a href="#" class="at1"><i class="fa-solid fa-clipboard-check" style="color: rgb(67, 13, 244);"></i></a>
             </div>
-            <!--  
-             <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at1"><i class="fa-solid fa-clipboard-check" style="color: rgb(67, 13, 244);"></i></a>
-                </div>
-                <div>
-                    <h3>Total Tasks</h3>
-                     <p>128</p>
-                   
-                     <h6 class="blue">🡡 12% vs Apr 2026</h6>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at2"><i class="fa-solid fa-circle-check" style="color: rgb(1, 146, 11);"></i></a>
-                </div>
-                <div>
-                     <h3>Completed</h3>
-                     <p>72</p>
-                     
-                    <h6 class="green1">56% of total tasks</h6>
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at3"><i class="fa-solid fa-clock" style="color: rgb(244, 179, 13);"></i></a>
-                </div>
-                <div>
-                    <h3>In Progress</h3>
-                    <p>34</p>
-    
-                    <h6 class="orange">27% of total tasks</h6>
-                </div>
-               </div>
-               
-                
-               </div>
-                 <div class="works4">
-               <div class="work4">
-                <div>
-                    <a href="#" class="at4"><i class="fa-solid fa-circle-exclamation" style="color: rgb(244, 13, 13);"></i></a>
-                </div>
-                <div>
-                    <h3>Overdue </h3>
-                     <p>12</p>
-                     <h6 class="red1">9 % of total tasks</h6>
-                    
-                   
-                </div>
-               </div>
-                <div class="work4">
-                <div>
-                    <a href="#" class="at5"><i class="fa-solid fa-flag" style="color: rgb(169, 6, 139);"></i></a>
-                </div>
-                <div>
-                     <h3>Net Started</h3>
-                     <p>10</p>
-                     
-                    <h6 class="purple">8% of total tasks</h6>
-                   
-                </div>
+            <div>
+                <h3>Total Tasks</h3>
+                <p>128</p>
+                <h6 class="blue">🡡 12% vs Apr 2026</h6>
             </div>
-               
-                
-                </div> -->
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at2"><i class="fa-solid fa-circle-check" style="color: rgb(1, 146, 11);"></i></a>
+            </div>
+            <div>
+                <h3>Completed</h3>
+                <p>72</p>
+                <h6 class="green1">56% of total tasks</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at3"><i class="fa-solid fa-clock" style="color: rgb(244, 179, 13);"></i></a>
+            </div>
+            <div>
+                <h3>In Progress</h3>
+                <p>34</p>
+                <h6 class="orange">27% of total tasks</h6>
+            </div>
+        </div>
+    </div>
 
-               <div class="tasks1">
-                <h2>Recent Tasks</h2>
-                <div class="tasks2">
-                    <div>
-                      <ul>
-                        <li class="tasks3">Task Name</li><br>
-                        <li>Design HR Dashboard</li><br>
-                        <li>Fix Login API Issue</li><br>
-                        <li>Employee Data Migration</li><br>
-                        <li>UI Improvements-Leave Module</li><br>
-                        <li>Write Test Case</li><br>
+    <div class="works4">
+        <div class="work4">
+            <div>
+                <a href="#" class="at4"><i class="fa-solid fa-circle-exclamation" style="color: rgb(244, 13, 13);"></i></a>
+            </div>
+            <div>
+                <h3>Overdue</h3>
+                <p>12</p>
+                <h6 class="red1">9% of total tasks</h6>
+            </div>
+        </div>
+        <div class="work4">
+            <div>
+                <a href="#" class="at5"><i class="fa-solid fa-flag" style="color: rgb(169, 6, 139);"></i></a>
+            </div>
+            <div>
+                <h3>Not Started</h3>
+                <p>10</p>
+                <h6 class="purple">8% of total tasks</h6>
+            </div>
+        </div>
+    </div>
+    -->
 
-                        
-                      </ul>
-                    </div>
-                    <div>
-                      <ul>
-                        <li class="tasks3">Project</li><br>
-                        <li>HRMS Redesign</li><br>
-                        <li>HRMS Development</li><br>
-                        <li>HRMS Implementation</li><br>
-                        <li>HRMS Redesign</li><br>
-                        <li>HRMS Development</li>
+    <div class="tasks1">
+        <h2>Recent Tasks</h2>
+        <div class="tasks2">
+            <div>
+                <ul>
+                    <li class="tasks3">Task Name</li><br>
+                    <li>Design HR Dashboard</li><br>
+                    <li>Fix Login API Issue</li><br>
+                    <li>Employee Data Migration</li><br>
+                    <li>UI Improvements - Leave Module</li><br>
+                    <li>Write Test Case</li><br>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="tasks3">Project</li><br>
+                    <li>HRMS Redesign</li><br>
+                    <li>HRMS Development</li><br>
+                    <li>HRMS Implementation</li><br>
+                    <li>HRMS Redesign</li><br>
+                    <li>HRMS Development</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="tasks3">Assigned To</li><br>
+                    <li>Tajunnisa</li><br>
+                    <li>Rafiya</li><br>
+                    <li>Rakesh</li><br>
+                    <li>Naveen</li><br>
+                    <li>Aravind</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="tasks3">Priority</li><br>
+                    <li>High</li><br>
+                    <li>High</li><br>
+                    <li>Medium</li><br>
+                    <li>Medium</li><br>
+                    <li>Low</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="tasks3">Status</li><br>
+                    <li>In Progress</li><br>
+                    <li>In Progress</li><br>
+                    <li>Completed</li><br>
+                    <li>In Progress</li><br>
+                    <li>Not Started</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-                        
-                      </ul>
-                    </div>
-                      <div>
-                      <ul>
-                        <li class="tasks3">Assign to</li><br>
-                        <li>Tajunnisa</li><br>
-                        <li>Rafiya</li><br>
-                        <li>Rakesh</li><br>
-                        <li>Naveen</li><br>
-                        <li>Aravind</li>
-
-                        
-                      </ul>
-                    </div>
-                     <div>
-                      <ul>
-                        <li class="tasks3">Priority</li><br>
-                        <li>High</li><br>
-                        <li>High</li><br>
-                        <li>Medium</li><br>
-                        <li>Medium</li><br>
-                        <li>Low</li>
-
-                        
-                      </ul>
-                    </div>
-                     <div>
-                      <ul>
-                        <li class="tasks3">Status</li><br>
-                        <li>In progress</li><br>
-                        <li>In progress</li><br>
-                        <li>Completed</li><br>
-                        <li>In Progress</li><br>
-                        <li>Not Started</li>
-
-                        
-                      </ul>
-                    </div>
+    <div class="whole-action">
+        <div class="action1">
+            <h2>Quick Actions</h2>
+            <div class="action2">
+                <div>
+                    <a href="#"><i class="fa-solid fa-plus" style="color: rgb(32, 13, 244);"></i></a>
                 </div>
-               </div>
-                <div class="whole-action">
-               <div class="action1">
-                <h2>Quick Actions</h2>
-                <div class="action2">
-                    <div>
-                   <a href="#"><i class="fa-solid fa-plus" style="color: rgb(32, 13, 244);"></i></a>
-                   </div>
-                   <div>
+                <div>
                     <h3>Create New Task</h3>
-                    <p>Add a new task for youself or your team</p>
-                   </div>
+                    <p>Add a new task for yourself or your team</p>
                 </div>
-                  
-                 <div class="action2">
-                    <div>
-                   <a href="#"><i class="fa-solid fa-chart-gantt" style="color: rgb(75, 13, 244);"></i></a>
-                   </div>
-                   <div>
+            </div>
+
+            <div class="action2">
+                <div>
+                    <a href="#"><i class="fa-solid fa-chart-gantt" style="color: rgb(75, 13, 244);"></i></a>
+                </div>
+                <div>
                     <h3>Assign Task</h3>
-                    <p>Assign a task to team member</p>
-                   </div>
+                    <p>Assign a task to a team member</p>
                 </div>
-                 <div class="action2">
-                    <div>
-                   <a href="#"><i class="fa-solid fa-list-check" style="color: rgb(71, 13, 244);"></i></a>
-                   </div>
-                   <div>
+            </div>
+
+            <div class="action2">
+                <div>
+                    <a href="#"><i class="fa-solid fa-list-check" style="color: rgb(71, 13, 244);"></i></a>
+                </div>
+                <div>
                     <h3>Task Templates</h3>
-                    <p>Use Pred-Defined task templates</p>
-                   </div>
+                    <p>Use predefined task templates</p>
                 </div>
-                  <div class="action2">
-                    <div>
-                   <a href="#"><i class="fa-solid fa-file-import" style="color: rgb(40, 13, 244);"></i></a>
-                   </div>
-                   <div>
+            </div>
+
+            <div class="action2">
+                <div>
+                    <a href="#"><i class="fa-solid fa-file-import" style="color: rgb(40, 13, 244);"></i></a>
+                </div>
+                <div>
                     <h3>Import Tasks</h3>
                     <p>Import tasks from Excel/CSV</p>
-                   </div>
                 </div>
-               </div>
-               <div class="status1">
-                <div>
-                    <img src="/images/task1.jpeg">
-                </div>
-                <div>
-                   <li> <a href="#"><i class="fa-solid fa-circle" style="color: rgb(13, 244, 82);"></i>Completed</a></li><br>
-                       <li> <a href="#"><i class="fa-solid fa-circle" style="color: rgb(55, 13, 244);"></i>In Progress</a></li><br>
-                   <li> <a href="#"><i class="fa-solid fa-circle" style="color: rgb(164, 167, 165);"></i>Not Started</a></li><br>
-                   <li> <a href="#"><i class="fa-solid fa-circle" style="color: rgb(244, 13, 21);"></i>Overdue</a></li><br>
-               
-                </div>
-                  <div>
-                    <li>72(56%)</li><br>
+            </div>
+        </div>
+
+        <div class="status1">
+            <div>
+                <img src="../../images/task1.jpeg">
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(13, 244, 82);"></i>Completed</a></li><br>
+                    <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(55, 13, 244);"></i>In Progress</a></li><br>
+                    <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(164, 167, 165);"></i>Not Started</a></li><br>
+                    <li><a href="#"><i class="fa-solid fa-circle" style="color: rgb(244, 13, 21);"></i>Overdue</a></li><br>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>72 (56%)</li><br>
                     <li>34 (27%)</li><br>
-                    <li>10(8%)</li><br>
+                    <li>10 (8%)</li><br>
                     <li>12 (9%)</li>
-                </div>
-               </div>
-               </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
