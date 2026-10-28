@@ -172,6 +172,11 @@ body {
     text-decoration: none;
     display: block;
 }
+.btn4 a:hover,
+.btn4 a:focus,
+.btn4 a:visited {
+    text-decoration: none;
+}
 
 p.log {
     font-size: 14px;
